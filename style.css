@@ -53,7 +53,8 @@ nav {
   justify-content: space-between;
   position: fixed;
   top: 0;
-  left: 0; }
+  left: 0;
+  z-index: 100; }
   nav ul a:hover {
     background-color: #2D93AD;
     text-decoration: underline; }
