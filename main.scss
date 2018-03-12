@@ -1,0 +1,76 @@
+@import 'partials/reset';
+
+$primary_color: #2D93AD;
+$secondary_color: #DBD56E;
+
+$primary_font: 'Lato', sans-serif;
+$secondary_font: 'PT Sans', sans-serif;
+
+section {
+  height: 800px;
+}
+
+nav {
+  height: 80px;
+  padding: 0 20px;
+  background-color: $primary_color;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top:0;
+  left:0;
+
+  ul a:hover {
+    background-color: $primary_color;
+    text-decoration: underline;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+}
+
+header {
+  height: 80vh;
+  margin-top: 80px;
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+
+  h2 {
+    font-size: 300%;
+    margin: 10px 0px;
+    text-shadow: 2px 2px 3px black;
+  }
+
+  h3 {
+    font-size: 200%;
+    text-shadow: 2px 2px 3px black;
+  }
+}
+
+#technologies {
+  i {
+    font-size: 100px;
+  }
+
+  .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+body {
+  font-family: $primary_font;
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: $secondary_font;
+  }
+}
