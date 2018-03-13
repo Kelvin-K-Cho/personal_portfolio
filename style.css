@@ -42,12 +42,12 @@ table {
   border-spacing: 0; }
 
 section {
-  height: 800px; }
+  height: 100%; }
 
 nav {
-  height: 80px;
-  padding: 0 20px;
-  background-color: #2D93AD;
+  height: 8.5%;
+  padding: 0 2%;
+  background-color: #1995AD;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -56,15 +56,16 @@ nav {
   left: 0;
   z-index: 100; }
   nav ul a:hover {
-    background-color: #2D93AD;
+    background-color: #1995AD;
     text-decoration: underline; }
-  nav h3 {
-    font-size: 25px; }
+  nav h1 {
+    font-size: 150%;
+    font-family: "Muli", sans-serif; }
 
 header {
-  height: 80vh;
-  margin-top: 80px;
-  background-image: url("images/background.jpg");
+  height: 92vh;
+  margin-top: 4%;
+  background-image: url("images/background.gif");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -80,6 +81,9 @@ header {
     font-size: 200%;
     text-shadow: 2px 2px 3px black; }
 
+#technologies h2 {
+  font-size: 200%;
+  text-align: center; }
 #technologies i {
   font-size: 100px; }
 #technologies .col {
@@ -88,7 +92,7 @@ header {
   justify-content: center; }
 
 body {
-  font-family: "Lato", sans-serif; }
+  font-family: "Muli", sans-serif; }
   body h1, body h2, body h3, body h4, body h5, body h6 {
     font-family: "PT Sans", sans-serif; }
 

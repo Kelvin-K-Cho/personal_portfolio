@@ -1,18 +1,20 @@
 @import 'partials/reset';
 
-$primary_color: #2D93AD;
-$secondary_color: #DBD56E;
+$primary_color: #1995AD;
+$secondary_color: #A1D6E2;
+$tertiary_color: #BCBABE;
+$quaternary_color: #F1F1F2;
 
-$primary_font: 'Lato', sans-serif;
+$primary_font: 'Muli', sans-serif;
 $secondary_font: 'PT Sans', sans-serif;
 
 section {
-  height: 800px;
+  height: 100%;
 }
 
 nav {
-  height: 80px;
-  padding: 0 20px;
+  height: 8.5%;
+  padding: 0 2%;
   background-color: $primary_color;
   display: flex;
   align-items: center;
@@ -27,15 +29,16 @@ nav {
     text-decoration: underline;
   }
 
-  h3 {
-    font-size: 25px;
+  h1 {
+    font-size: 150%;
+    font-family: $primary_font;
   }
 }
 
 header {
-  height: 80vh;
-  margin-top: 80px;
-  background-image: url('images/background.jpg');
+  height: 92vh;
+  margin-top: 4%;
+  background-image: url('images/background.gif');
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -57,6 +60,12 @@ header {
 }
 
 #technologies {
+
+  h2 {
+    font-size: 200%;
+    text-align: center;
+  }
+
   i {
     font-size: 100px;
   }
