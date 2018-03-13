@@ -24,6 +24,10 @@ nav {
   left:0;
   z-index: 100;
 
+  div {
+    margin-top: 1.5%;
+  }
+
   ul a:hover {
     background-color: $primary_color;
     text-decoration: underline;
@@ -288,11 +292,12 @@ header {
     margin-top: 2%;
     resize: none;
     height: 30vh;
+    margin-bottom: 1%;
   }
 
   button {
-    height: 20px;
-    width: 60px;
+    height: 2.5vh;
+    width: 3vw;
     background-color: $primary_color;
     color: #fff;
     border-radius: 2px;
