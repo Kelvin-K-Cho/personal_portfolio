@@ -19,8 +19,8 @@
         <li><a data-scroll href="#nav">Welcome</a></li>
         <li><a data-scroll href="#technology-target">Technologies</a></li>
         <li><a data-scroll href="#about-target">About Me</a></li>
-        <li><a data-scroll href="#portfolio">Portfolio</a></li>
-        <li><a data-scroll href="#contact">Contact</a></li>
+        <li><a data-scroll href="#portfolio-target">Portfolio</a></li>
+        <li><a data-scroll href="#contact-target">Contact</a></li>
       </ul>
     </nav>
     <header id="welcome">
@@ -97,42 +97,46 @@
         <h2>About Me</h2>
         <div id="about-me">
           <img src="images/kelvin_cho.jpg" alt="kelvin">
-          <article class="article-top">
+          <article>
             <span class="paragraphs">
               <h3>My Story</h3>
               &nbsp;
-              <p>I am software developer focused in San Francisco Bay Area.  Love collaborating with others and learning new technologies.</p>
+              <p>I am a software developer focused in the San Francisco Bay Area.  Love collaborating with others and learning new technologies.</p>
               &nbsp;
-              <p>Graduated from UCI back in 2012.  Worked in the payments industry for a few years.  Decided to pursue software development as a career.  Sharpened my skills in Ruby, Ruby on Rails, JavaScript, React/Redux, HTML5, CSS3</p>
+              <p>Graduated from UCI back in 2012.  Worked in the payments industry for a few years.</p>
+              &nbsp;
+              <p>Decided to pursue software development as a career.  Sharpened my skills in Ruby, Ruby on Rails, JavaScript, React/Redux, HTML5, CSS3</p>
             </span>
 
             <span class="experience">
               <h3>Experience</h3>
-              &nbsp;
               <div class="titles">
                 <h4>Card Scheme Compliance Supervisor</h4>
                 <h5>Paysafe Group, PLC</h5>
                 <h6>Mar 2014 - July 2017</h6>
               </div>
               &nbsp;
-              <p>Developed web scraping tool using Python to track merchant website changes across portfolio.</p>
-              <p>Devised and administered new billing practices through manipulating Excel spreadsheets and managing a SQL database to generate over $800,000 in annual revenue.</p>
-              <p>Drove monthly completion rate for merchant website compliance from 42% to 100% through mastering new monitoring tools such as G2 Persistent Merchant Monitoring.</p>
-              <p>Recruited, trained and supervised over 5 full-time Compliance Analysts.</p>
+              <ul class="bullets">
+                <li>Developed web scraping tool using Python to track merchant website changes across portfolio.</li>
+                <li>Devised and administered new billing practices through manipulating Excel spreadsheets and managing a SQL database to generate over $800,000 in annual revenue.</li>
+                <li>Drove monthly completion rate for merchant website compliance from 42% to 100% through mastering new monitoring tools such as G2 Persistent Merchant Monitoring.</li>
+                <li>Recruited, trained and supervised over 5 full-time Compliance Analysts.</li>
+              </ul>
               &nbsp;
               <div class="titles">
                 <h4>Compliance Analyst</h4>
                 <h5>Meritus Payment Solutions</h5>
-                <h6>Nov 2012 - July 2017</h6>
+                <h6>Nov 2012 - Mar 2014</h6>
               </div>
               &nbsp;
-              <p>BS - Quantitative Economics</p>
+              <ul class="bullets">
+                <li>Effectively communicated bank requirements to resolve merchant non-compliance; used tact to prevent and defuse confrontational situations.</li>
+                <li>Interpreted and applied card association guidelines for auditing merchant websites to prevent potential bank fines leading up to $200,000.</li>
+                <li>Satisfied attorney subpoenas through sorting and analyzing hundreds of documents using a binary search algorithm.
+                </li>
+              </ul>
             </span>
 
-          </article>
-        </div>
-        <div id="education">
-          <article class="article-bottom">
             <span class="education">
               <h3>Education</h3>
               &nbsp;
@@ -150,17 +154,59 @@
               &nbsp;
               <p>BS - Quantitative Economics</p>
             </span>
+
           </article>
         </div>
+
+        <div id="portfolio-target"></div>
+
       </section>
 
       <section id="portfolio">
         <h2>Portfolio</h2>
+        <div class="row">
+          <div class="col s12 m6 l3">
+            <div class="card">
+              <div class="card-image">
+                <a href="http://hallyu.herokuapp.com/#/" target="_blank">
+                  <img src="images/hallyu.png"/>
+                </a>
+              </div>
+              <div class="card-content">
+                <p>Hallyu is a full stack single-page web application inspired by Pandora.  It allows users to create stations based off their favorite k-pop artists and personalize their stations through likes/dislikes.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l3">
+            <div class="card">
+              <div class="card-image">
+        				<a href="https://kelvin-k-cho.github.io/dos/" target="_blank"><img src="images/dos.png"/></a>
+              </div>
+              <div class="card-content">
+                <p>Dos is a reimagined version of the classic card game, Uno. Written in JavaScript, styled with HTML/CSS and bundled with Webpack.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l3">
+            <div class="card">
+              <div class="card-image">
+        				<a href="http://recruited.herokuapp.com" target="_blank"><img src="images/recruited.png"/></a>
+              </div>
+              <div class="card-content">
+                <p>Recruited is a full-stack single page web application designed to connect job seekers with job recruiters by combining the functionality of Tinder with the practicality of Indeed.com.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="contact-target"></div>
       </section>
 
       <section id="contact">
         <h2>Contact</h2>
-        <form name="contact" method="POST" netlify>
+        <form id="contact-form" name="contact" method="POST" netlify>
           <p>
             <label>Your Name: <input type="text" name="name"></label>
           </p>

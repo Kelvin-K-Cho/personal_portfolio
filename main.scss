@@ -116,8 +116,10 @@ header {
 #about {
 
   background-color: $secondary_color;
-  height: 93vh;
+  height: 95vh;
   text-align: center;
+  font-size: 1.7vh;
+  position:relative;
 
   h2 {
     padding-top: 3%;
@@ -140,7 +142,7 @@ header {
     margin-left: 10%;
   }
 
-  .article-top {
+  article {
     position: relative;
     right: 35%;
   }
@@ -152,26 +154,40 @@ header {
 
   .paragraphs {
     margin-right: 15%;
-  }
-
-  .article-bottom {
-    position: relative;
-    margin-top: 22%;
-    right: 80%;
-  }
-
-  .experience {
-    width: 60%;
-    right: -50%;
 
     p {
       text-align: left;
     }
   }
 
+  .experience {
+    width: 60%;
+    right: -50%;
+
+    .bullets {
+      margin-top: 1.5%;
+      line-height: 1.6;
+    }
+
+    li {
+      text-align: left;
+    }
+
+    li::before {
+      content: "• ";
+    }
+  }
+
   .education {
-    right: -20%;
-    width: 30%;
+    position: absolute;
+    right: 15%;
+    width: 40%;
+    top: 40vh;
+
+    p {
+      margin-top: 2%;
+      text-align: left;
+    }
   }
 
   h4 {
@@ -181,6 +197,7 @@ header {
 
   h5 {
     float: left;
+    font-style: italic;
   }
 
   h6 {
@@ -188,13 +205,102 @@ header {
   }
 
   .titles {
-
+    margin-top: 2%;
+    line-height: 1.5;
   }
 
   p {
-    margin-top: 1%;
+    line-height: 1.3;
   }
 
+  #portfolio-target {
+    bottom: 1.3%;
+    position: absolute;
+    height: 8%;
+    width: 8%;
+  }
+
+}
+
+#portfolio {
+  background-color: $quaternary_color;
+  height: 95vh;
+  font-size: 95%;
+  position:relative;
+
+  h2 {
+    padding-top: 3%;
+    font-size: 200%;
+    text-align: center;
+    font-family: $secondary_font
+  }
+
+  .row {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .col {
+    margin: 0 2%;
+  }
+
+  .card-content {
+    line-height: 1.5;
+  }
+
+  #contact-target {
+    bottom: 1%;
+    position: absolute;
+    height: 8%;
+    width: 8%;
+  }
+}
+
+#contact {
+  background-color: $secondary_color;
+  height: 92vh;
+  font-size: 95%;
+  position:relative;
+  font-family: $secondary_font;
+
+  h2 {
+    padding-top: 3%;
+    font-size: 200%;
+    text-align: center;
+  }
+
+  #contact-form {
+    margin: 0 auto;
+    margin-top: 3%;
+    width: 70vw;
+    padding: 3%;
+    border-radius: 10px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 1);
+    background: $quaternary_color;
+  }
+
+  label {
+    color: darkblue;
+  }
+
+  textarea {
+    margin-top: 2%;
+    resize: none;
+    height: 30vh;
+  }
+
+  button {
+    height: 20px;
+    width: 60px;
+    background-color: $primary_color;
+    color: #fff;
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: normal;
+    cursor:pointer;
+  }
 }
 
 body {
