@@ -63,7 +63,7 @@ nav {
     font-family: "Muli", sans-serif; }
 
 header {
-  height: 92vh;
+  height: 93vh;
   margin-top: 4%;
   background-image: url("images/background.gif");
   background-size: cover;
@@ -80,19 +80,58 @@ header {
   header h3 {
     font-size: 200%;
     text-shadow: 2px 2px 3px black; }
+  header #technology-target {
+    bottom: 0;
+    position: absolute;
+    height: 8%;
+    width: 8%; }
 
-#technologies h2 {
-  font-size: 200%;
+#technologies {
+  margin-bottom: 10%;
+  height: 100%;
+  text-align: center;
+  position: relative; }
+  #technologies h2 {
+    margin: 3% 0;
+    font-size: 200%;
+    text-align: center; }
+  #technologies p {
+    margin: 2% 0; }
+  #technologies a {
+    color: black;
+    text-decoration: underline; }
+  #technologies i {
+    margin-top: 35%;
+    font-size: 100px; }
+  #technologies .devicon-atom-original {
+    color: white;
+    background: limegreen;
+    border-radius: 100%; }
+  #technologies .col {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  #technologies #about-target {
+    position: absolute;
+    height: 8%;
+    width: 8%;
+    bottom: -20.4%; }
+
+#about {
+  background-color: #A1D6E2;
+  height: 93vh;
   text-align: center; }
-#technologies i {
-  font-size: 100px; }
-#technologies .col {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
+  #about article {
+    position: relative; }
+  #about p {
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 50%; }
 
 body {
-  font-family: "Muli", sans-serif; }
+  font-family: "Muli", sans-serif;
+  background: #F1F1F2; }
   body h1, body h2, body h3, body h4, body h5, body h6 {
     font-family: "PT Sans", sans-serif; }
 
