@@ -81,7 +81,7 @@ header {
     font-size: 200%;
     text-shadow: 2px 2px 3px black; }
   header #technology-target {
-    bottom: 0;
+    bottom: -1%;
     position: absolute;
     height: 8%;
     width: 8%; }
@@ -115,12 +115,16 @@ header {
     position: absolute;
     height: 8%;
     width: 8%;
-    bottom: -20.4%; }
+    bottom: -24%; }
 
 #about {
   background-color: #A1D6E2;
   height: 93vh;
   text-align: center; }
+  #about h2 {
+    font-size: 200%;
+    text-align: center;
+    font-family: "Nunito", sans-serif; }
   #about article {
     position: relative; }
   #about p {
@@ -133,6 +137,6 @@ body {
   font-family: "Muli", sans-serif;
   background: #F1F1F2; }
   body h1, body h2, body h3, body h4, body h5, body h6 {
-    font-family: "PT Sans", sans-serif; }
+    font-family: "Nunito", sans-serif; }
 
 /*# sourceMappingURL=style.css.map */

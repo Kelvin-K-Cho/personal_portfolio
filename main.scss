@@ -6,7 +6,7 @@ $tertiary_color: #BCBABE;
 $quaternary_color: #F1F1F2;
 
 $primary_font: 'Muli', sans-serif;
-$secondary_font: 'PT Sans', sans-serif;
+$secondary_font: 'Nunito', sans-serif;
 
 section {
   height: 100%;
@@ -59,7 +59,7 @@ header {
   }
 
   #technology-target {
-    bottom: 0;
+    bottom: -1%;
     position: absolute;
     height: 8%;
     width: 8%;
@@ -109,7 +109,7 @@ header {
     position: absolute;
     height: 8%;
     width: 8%;
-    bottom: -20.4%;
+    bottom: -24%;
   }
 }
 
@@ -118,6 +118,16 @@ header {
   background-color: $secondary_color;
   height: 93vh;
   text-align: center;
+
+  h2 {
+    font-size: 200%;
+    text-align: center;
+    font-family: $secondary_font
+  }
+
+  img {
+
+  }
 
   article {
     position: relative;
@@ -130,9 +140,6 @@ header {
     width: 50%;
   }
 
-  h2 {
-
-  }
 }
 
 body {
