@@ -215,14 +215,19 @@ header {
   height: 92vh;
   font-size: 95%;
   position: relative;
-  font-family: "PT Sans", sans-serif; }
+  font-family: "PT Sans", sans-serif;
+  color: #000066; }
   #contact h2 {
     padding-top: 3%;
     font-size: 200%;
     text-align: center; }
+  #contact h3 {
+    font-size: 150%;
+    text-align: center;
+    padding-top: 2%; }
   #contact #contact-form {
     margin: 0 auto;
-    margin-top: 3%;
+    margin-top: 2%;
     width: 70vw;
     padding: 2.5% 3%;
     border-radius: 10px;
@@ -233,7 +238,7 @@ header {
   #contact textarea {
     margin-top: 2%;
     resize: none;
-    height: 30vh;
+    height: 25vh;
     margin-bottom: 1%; }
   #contact button {
     height: 2.5vh;

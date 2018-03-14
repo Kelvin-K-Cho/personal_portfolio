@@ -267,6 +267,7 @@ header {
   font-size: 95%;
   position:relative;
   font-family: $secondary_font;
+  color: #000066;
 
   h2 {
     padding-top: 3%;
@@ -274,9 +275,16 @@ header {
     text-align: center;
   }
 
+  h3 {
+    font-size: 150%;
+    text-align: center;
+    padding-top: 2%;
+
+  }
+
   #contact-form {
     margin: 0 auto;
-    margin-top: 3%;
+    margin-top: 2%;
     width: 70vw;
     padding: 2.5% 3%;
     border-radius: 10px;
@@ -291,7 +299,7 @@ header {
   textarea {
     margin-top: 2%;
     resize: none;
-    height: 30vh;
+    height: 25vh;
     margin-bottom: 1%;
   }
 
